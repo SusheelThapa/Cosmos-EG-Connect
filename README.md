@@ -3,6 +3,7 @@
     <p align="center">
         <img
              src="https://github.com/SusheelThapa/EG-Connect/assets/83917129/f7fa0bdc-c27a-473a-9df3-ab590e791ba4" alt="Logo of EG-Connect"
+             width="150"
          />
     <p align="center">
     <strong>  </strong>
@@ -13,10 +14,11 @@
 
 1. [Introduction](#introduction)
 2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [License](#license)
+3. [Demo](#demo)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
 
 ## Introduction
 
@@ -44,6 +46,10 @@ In response to the evolving dynamics of our digital society, EG-Connect emerges 
 - Secure user authentication system to ensure the integrity of the voting and feedback process.
 - Encrypted user data for privacy protection.
 
+## Demo
+
+https://github.com/SusheelThapa/EG-Connect/assets/83917129/f26600c0-9fd8-4b40-89b6-511c8bf31328
+
 ## Installation
 
 ### Cloning the repository
@@ -56,63 +62,63 @@ In response to the evolving dynamics of our digital society, EG-Connect emerges 
 
 ### Frontend
 
-#### Moving to frontend folder
+- Navigate frontend folder
 
-    ```shell
-    cd frontend/
-    ```
+  ```shell
+  cd frontend/
+  ```
 
-#### Installation node packages
+- Installation node packages
 
-    ```shell
-    cd yarn
-    yarn
-    ```
+  ```shell
+  cd yarn
+  yarn
+  ```
 
-#### Running the project
+- Running the project
 
-    ```shell
-    yarn run dev
-    ```
+  ```shell
+  yarn run dev
+  ```
 
 ### Backend
 
-#### Moving to backend folder
+- Moving to backend folder
 
-    ```shell
-    cd backend
-    ```
+  ```shell
+  cd backend
+  ```
 
-#### Creating virtual environment
+- Creating virtual environment
 
-    ```shell
-    python3 -m venv .venv
-    ```
+  ```shell
+  python3 -m venv .venv
+  ```
 
-#### Activate the virtual environment
+- Activate the virtual environment
 
-    ```shell
-    source .venv/bin/activate
-    ```
+  ```shell
+  source .venv/bin/activate
+  ```
 
-#### Installing required python packages
+- Installing required python packages
 
-    ```shell
-    pip3 install -r requirements.txt
-    ```
+  ```shell
+  pip3 install -r requirements.txt
+  ```
 
-#### Making migrations
+- Making migrations
 
-    ```shell
-    python3 manage.py makemigrations
-    python3 manage.py migrate
-    ```
+  ```shell
+  python3 manage.py makemigrations
+  python3 manage.py migrate
+  ```
 
-#### Running the server
+- Running the server
 
-    ```shell
-    python3 manage.py runserver
-    ```
+  ```shell
+  python3 manage.py runserver
+  ```
 
 ## Usage
 
